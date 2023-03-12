@@ -1,0 +1,88 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    width: 834px; 
+    height: 469px;
+    left: 0px;
+    top: 0px;
+}
+.sub-tag{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.473);
+    color: white;
+    display: none;
+    font-size: 16px;
+    text-align: right;
+    width: 90px;
+    height: 40;
+    margin: 0;
+    display: block
+
+}
+.item-img{
+
+}
+.icon{
+    background-image: url(https://yt3.ggpht.com/67lNnmpWgtSDt3NblQNTV9mOmAvlibVMbOZQLl22j6TFGEogPc_2TIJ8XWhZvHWRHmLkOZH2XA=s68-c-k-c0x00ffffff-no-rj);
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 50%;
+}
+.title{
+    font-size: 16px;
+    overflow: hidden;
+    width: 720px;
+}
+.sub-title{
+    font-size: 15px;
+    color: grey;
+    margin: -10px 0 0 50px;
+    width: 70;
+
+}
+.button{
+    background-color: wi;
+    color: white;
+    font-size: 18px;
+    size: 100px;
+    border-radius: 10px;
+}
+.position{
+    float: right;
+    position: relative;
+    bottom: 122px;
+    right: 115px;
+}
+.sub{
+    background-color: beige;
+    border-radius: 5px;
+    width: 720px;
+}
+.check-img{
+    width: 20px;
+    height: 20px;
+}
+.size{
+    background-size: contain 80px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.size2{
+    float: right;
+    width: 20px;
+}
+.content{
+    width: 720px;
+    display: flex;
+    justify-content: space-between;
+}

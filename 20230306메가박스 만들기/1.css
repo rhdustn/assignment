@@ -1,0 +1,158 @@
+.tab-meun> input{
+    display: none;    
+}
+
+/* 인접한 형재요소 선택자 + */
+/* tab-meun 클래스를 가지고 이ㅛ는 태그 */
+.tab-meun> input + label{
+    display: inline-block;
+    padding: 20px;
+    width: 160px;
+    background-color: gray;
+    color: white;
+    font-size: 14px;
+    /* 마우스를 올렸을 떄 보여줄 커서를 설정 할 수 있다 */
+    cursor: pointer;
+}
+/* checked 속성이 있는 input 태그 */
+/* .tap-meun클래스를 가지고 있는 자식 input태그가
+checked 속성이 있르면 인접 현제 태그인 lable에 스타일을 적용 */
+.tab-meun>input:checked + label {
+    background-color: beige;
+    color: black;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    margin: 10px;
+    display: none;
+
+}
+/* input태그중 class가 tab01 이고 checked 속성이 이ㅛ고 형제요소
+및에 있는 태그 중에 itwm1클래스를 가지고 있는 태그 */
+input[class="tab01"]:checked~.item1{
+    display: block;
+    }
+
+input[class="tab02"]:checked~.item2{
+    display: block;
+}
+input[class="tab03"]:checked~.item3{
+    display: block;
+}
+input[class="tab04"]:checked~.item4{
+    display: block;
+}
+input[class="tab05"]:checked~.item5{
+    display: block;
+}
+.text-box::before{
+    position: absolute;
+    top: 6px;
+    left: 162px;
+    content: "";
+    background-image: url(https://img.megabox.co.kr/static/pc/images/common/btn/btn-search-input.png);
+    width: 12px;
+    height: 12px;
+    background-repeat: no-repeat;
+    display: block;
+
+}
+.text-box{
+    
+    position: relative;
+}
+.text-box input{
+    padding-right: 24px;
+}
+
+.display{
+    display: flex;
+    width: 300px;
+    align-items: center;
+
+}
+
+.content{
+    width: 300px;
+    height: 650px;
+}
+.img{
+ display: none;
+ display: flex;
+ position: relative;
+
+}
+.img:hover .img_story{
+    position: absolute;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.425);
+    width:290px ;
+    height:auto;
+}
+.img_story{
+    position: absolute;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.425);
+    width:292px ;
+    height: 320px;
+}
+
+
+.sub-img{
+width: 25px;
+height: 25px;
+margin: 10px;
+margin-left: 0;
+}
+.img:hover{
+    background-color: rgba(0, 0, 0, 0.384);
+    color: white;
+}
+.text{
+    display: inline-block;
+    margin-top: 10px;
+    text-align: start;
+    
+
+    
+}
+.block
+{   width: 70px;
+    height: 35px;
+    border: 1px solid gray;
+    text-align: center;
+    margin-top: 10px;
+border-radius: 5px;
+}
+.buttom{
+    float: left;
+    width: 95px;
+    height: 40px;
+    margin-right: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+
+}
+.buttons{
+    float: left;
+    width: 95px;
+    height: 40px;
+    margin-right: 5px;
+    background-color: rgb(113, 40, 173);
+    border-radius: 5px;
+    color: white;
+}
+
+.question{
+    position: absolute;
+    top: 6px;
+    right: auto;
+    content: "";
+    background-image: url(https://img.megabox.co.kr/static/pc/images/common/btn/btn-search-input.png);
+    width: 12px;
+    height: 12px;
+    background-repeat: no-repeat;
+    display: block;
+}
